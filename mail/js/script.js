@@ -5,15 +5,21 @@
 
 
 // elenco iscritti con chiediMail
-var emailIscritti = ["f.iacono@gmail.com", "marco.milano@gmail.com", "filippo@hotmail.it", "anna@gmail.com"];
-console.log(emailIscritti);
+var mailingList = ["f.iacono@gmail.com", "marco.milano@gmail.com", "filippo@hotmail.it", "anna@gmail.com"];
+console.log(mailingList);
 
 // Chiedi all’utente la sua email
 var chiediMail = prompt("Inserisci la tua email");
 console.log(chiediMail);
 
 // controlla che sia nella lista di chi può accedere
-if (chiediMail == emailIscritti) {
+var result = false;
+for (var i = 0; i < mailingList.length; i++) {
+  if (chiediMail == mailingList) {
+    result = true;
+  }
+}
+if (result) {
   console.log("puoi accedere");
 } else {
   console.log("non puoi accedere");
