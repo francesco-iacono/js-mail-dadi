@@ -22,6 +22,8 @@ for (var i = 0; i < mailingList.length; i++) {
 // stampa un messaggio appropriato sull’esito del controllo
 if (result === true) {
   console.log("puoi accedere");
+  document.getElementById('accesso').innerHTML = "puoi accedere";
 } else {
   console.log("non puoi accedere");
+  document.getElementById('accesso').innerHTML = "non puoi accedere";
 }

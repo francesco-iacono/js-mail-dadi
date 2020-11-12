@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-image: url(https://www.67pallmall.com/wp-content/uploads/2019/10/67-Pall-Mall-Lounge-Wine-Bar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: helvetica;
+}
+header {
+  display: flex;
+  align-items: center;
+  height: 120px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+header h1 {
+  padding: 20px 40px;
+  color: rgb(198, 204, 209);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: Calc(100% - 120px);
+}
+.messaggio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 200px;
+  background-color: rgba(198, 204, 209, 0.5);
+  font-size: 30px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-align: center;
+}
