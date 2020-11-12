@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: helvetica;
+}
+header {
+  width: 100%;
+  height: 150px;
+  background-color: #D72928;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  width: 500px;
+  height: 100%;
+  margin: auto;
+  color: #ffff;
+}
+.logo img {
+  margin-right: 20px;
+  width: 70px;
+}
+.container {
+  width: 500px;
+  margin: auto;
+  text-align: center;
+  padding: 40px;
+}
+.game {
+  display: inline-block;
+  padding: 20px;
+}
+
+.dice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  height: 140px;
+  background-color: #D72928;
+  color: #ffff;
+  border-radius: 10px;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-top: 15px;
+}
+.risultato_game {
+  font-size: 50px;
+  padding: 20px;
+}

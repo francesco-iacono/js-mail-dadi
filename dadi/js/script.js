@@ -4,11 +4,11 @@
 
 // generare un numero random da 1 a 6 per pc
 var numeroPc = Math.floor(Math.random() * 7);
-document.getElementById('computer').innerHTML = "Pc :" + numeroPc;
+document.getElementById('computer').innerHTML = numeroPc;
 console.log(numeroPc);
 // generare un numero random da 1 a 6 per utente
 var numeroUtente = Math.floor(Math.random() * 7);
-document.getElementById('utente').innerHTML = "Tu: " + numeroUtente;
+document.getElementById('utente').innerHTML = numeroUtente;
 console.log(numeroUtente);
 
 // Stabilire il vincitore, in base a chi fa il punteggio più alto.

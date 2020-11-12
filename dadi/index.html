@@ -2,12 +2,33 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
     <title>Dadi</title>
   </head>
   <body>
-    <p id="computer"></p>
-    <p id="utente"></p>
-    <p id="risultato"></p>
-    <script src="js/script.js" charset="utf-8"></script>
+    <header>
+      <div class="logo">
+        <img src="https://www.dadi-online.it/img/dadi-logo/dadi-online.png" alt="">
+        <h1>Generatore di dadi online</h1>
+      </div>
+    </header>
+    <div class="container">
+      <div class="game">
+        <h3>Banco</h3>
+        <div class="dice">
+          <p id="computer"></p>
+        </div>
+      </div>
+      <div class="game due">
+        <h3>Tu</h3>
+        <div class="dice">
+          <p id="utente"></p>
+        </div>
+      </div>
+      <div class="risultato_game">
+        <p id="risultato"></p>
+      </div>
+      <script src="js/script.js" charset="utf-8"></script>
+    </div>
   </body>
 </html>
